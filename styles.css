@@ -126,13 +126,29 @@ nav.main-nav a.current { color: var(--amber); }
 .mobile-toggle { display: none; }
 
 @media (max-width: 760px) {
-  nav.main-nav { display: none; }
+  nav.main-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    background: var(--pine-deep);
+    padding: 8px 24px 20px;
+  }
+  nav.main-nav.is-open { display: flex; }
+  nav.main-nav a { width: 100%; padding: 10px 0; }
+  nav.main-nav .btn-book-nav { width: auto; margin-top: 8px; }
   .mobile-toggle {
     display: block;
     background: none;
     border: none;
     color: var(--white);
     font-size: 1.6rem;
+    line-height: 1;
+    cursor: pointer;
   }
 }
 
