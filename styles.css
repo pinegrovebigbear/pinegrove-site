@@ -358,3 +358,12 @@ footer a:hover { color: var(--amber); }
   .photo-grid-2 { grid-template-columns: 1fr; }
 }
 .photo-grid-2 .photo-block { margin-top: 0; }
+
+.photo-grid-mini {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 36px;
+}
+.photo-grid-mini .photo-block { margin-top: 0; }
+.photo-grid-mini img { aspect-ratio: 4/3; object-fit: cover; }
