@@ -143,9 +143,8 @@
 <section class="section-alt">
   <div class="wrap">
     <h2>When to visit</h2>
-    <div style="margin-top:16px; display:flex; align-items:center; gap:14px; flex-wrap:wrap;">
-      <span id="current-weather" class="permit-badge">Checking current conditions…</span>
-      <a href="https://www.wunderground.com/dashboard/pws/KCABIGBE39" target="_blank" rel="noopener" style="font-size:.85rem;">Live station data →</a>
+    <div style="margin-top:16px; max-width:420px;">
+      <a class="weatherwidget-io" href="https://forecast7.com/en/34d24n116d91/big-bear-lake/?unit=us" data-label_1="BIG BEAR" data-label_2="WEATHER" data-theme="original" data-basecolor="#dfe9df" data-textcolor="#153c2b" data-highcolor="#ff4949" data-lowcolor="#4c95fe" data-suncolor="#ffb413" data-cloudcolor="#979797">BIG BEAR WEATHER</a>
     </div>
     <div class="card-grid">
       <div class="card">
@@ -241,6 +240,8 @@
 </script>
 
 <script src="js/nav.js"></script>
-<script src="js/weather.js"></script>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
 </body>
 </html>
