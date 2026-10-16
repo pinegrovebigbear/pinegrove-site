@@ -224,6 +224,7 @@ a.card-link:hover .card-link-cta { text-decoration: underline; }
 .photo-grid-mini img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; transition: transform .35s ease; }
 .photo-grid-mini .photo-block:hover img { transform: scale(1.025); }
 .photo-grid-mini.grid-2x2 { grid-template-columns: repeat(2, 1fr); }
+.photo-grid-mini.grid-3 { grid-template-columns: repeat(3, 1fr); }
 .page-gallery .photo-grid-mini { grid-template-columns: repeat(12, 1fr); }
 .page-gallery .photo-grid-mini .photo-block { grid-column: span 4; }
 .page-gallery .photo-grid-mini .photo-block { align-self: start; background: transparent; }
@@ -300,12 +301,14 @@ footer a:hover { color: var(--amber); }
   .booking-band .booking-actions .btn { width: 100%; }
   .photo-grid-2 { grid-template-columns: 1fr; }
   .page-gallery .photo-grid-mini { grid-template-columns: 1fr 1fr; }
+  .photo-grid-mini.grid-3 { grid-template-columns: 1fr 1fr; }
   .page-gallery .photo-grid-mini .photo-block { grid-column: auto; }
   footer .wrap { grid-template-columns: 1fr; gap: 26px; }
 }
 
 @media (max-width: 430px) {
   .photo-grid-mini.grid-2x2 { grid-template-columns: 1fr; }
+  .photo-grid-mini.grid-3 { grid-template-columns: 1fr; }
   .page-gallery .photo-grid-mini { grid-template-columns: 1fr; }
 }
 
