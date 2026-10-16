@@ -186,6 +186,8 @@ a.card-link:hover { transform: translateY(-3px); border-color: var(--pine-mid); 
 a.card-link:hover .card-link-cta { text-decoration: underline; }
 .jump-target, section[id] { scroll-margin-top: 84px; }
 .card p { color: var(--charcoal-soft); font-size: .94rem; }
+.itinerary .card p { margin-top: 12px; }
+.itinerary .card strong { color: var(--pine-deep); }
 .section-dark .card { background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.15); box-shadow: none; }
 .section-dark .card p { color: #d9e3dc; }
 
