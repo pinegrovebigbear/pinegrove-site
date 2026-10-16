@@ -186,6 +186,8 @@ a.card-link:hover { transform: translateY(-3px); border-color: var(--pine-mid); 
 a.card-link:hover .card-link-cta { text-decoration: underline; }
 .jump-target, section[id] { scroll-margin-top: 84px; }
 .card p { color: var(--charcoal-soft); font-size: .94rem; }
+.drive-times { grid-template-columns: repeat(3, 1fr); margin-bottom: 8px; }
+.drive-times .card h3 { margin-bottom: 4px; font-size: clamp(1.8rem, 3.4vw, 2.4rem); }
 .itinerary .card p { margin-top: 12px; }
 .itinerary .card strong { color: var(--pine-deep); }
 .section-dark .card { background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.15); box-shadow: none; }
@@ -293,6 +295,7 @@ footer a:hover { color: var(--amber); }
   .page-intro .lede { font-size: 1.05rem; }
 
   .feature-copy .card-grid, .answer-grid { grid-template-columns: 1fr; }
+  .drive-times { grid-template-columns: 1fr; }
   .booking-band .wrap { align-items: stretch; flex-direction: column; }
   .booking-band .booking-actions .btn { width: 100%; }
   .photo-grid-2 { grid-template-columns: 1fr; }
