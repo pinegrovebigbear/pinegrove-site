@@ -67,12 +67,8 @@ img { display: block; max-width: 100%; }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .brand { display: inline-flex; align-items: center; gap: 11px; color: var(--pine-deep); font: 700 1.35rem var(--font-display); }
 .brand:hover { text-decoration: none; }
-.brand-mark-badge {
-  width: 46px; height: 46px; border-radius: 50%; flex: 0 0 auto;
-  display: grid; place-items: center; background: var(--white); border: 1px solid var(--line);
-  box-shadow: var(--shadow-soft);
-}
-.brand-mark { width: 34px; height: 34px; object-fit: contain; }
+.brand-mark-badge { width: 54px; height: 54px; flex: 0 0 auto; display: grid; place-items: center; }
+.brand-mark { width: 54px; height: 54px; object-fit: contain; }
 nav.main-nav { display: flex; align-items: center; gap: clamp(14px, 2vw, 28px); }
 nav.main-nav a { color: var(--pine-deep); font-size: 0.9rem; font-weight: 600; }
 nav.main-nav a:hover { color: var(--terracotta-dark); text-decoration: none; }
@@ -242,6 +238,7 @@ section[id="house-rules"] { scroll-margin-top: 84px; }
 /* Footer */
 footer { padding: 58px 0 28px; background: #18241e; color: #d9e3dc; font-size: .9rem; }
 footer .wrap { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 34px; }
+.footer-logo { width: 190px; height: auto; margin-bottom: 14px; }
 footer h4 { margin-bottom: 12px; color: var(--white); font-size: 1rem; letter-spacing: 0; }
 footer a { color: #d9e3dc; }
 footer a:hover { color: var(--amber); }
