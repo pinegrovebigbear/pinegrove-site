@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-  var imgs = Array.prototype.slice.call(document.querySelectorAll('.page-gallery .photo-block img'));
+  var imgs = Array.prototype.slice.call(document.querySelectorAll('.page-gallery .photo-block img, .page-cabin .photo-block img'));
   if (!imgs.length) return;
 
   var overlay = document.createElement('div');

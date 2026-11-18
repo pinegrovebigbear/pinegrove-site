@@ -320,7 +320,7 @@ footer a:hover { color: var(--amber); }
 }
 .jump-chip:hover { background: var(--pine-deep); color: var(--white); border-color: var(--pine-deep); text-decoration: none; }
 .gallery-label { scroll-margin-top: 90px; }
-.page-gallery .photo-block img { cursor: zoom-in; }
+.page-gallery .photo-block img, .page-cabin .photo-block img { cursor: zoom-in; }
 
 .lightbox {
   position: fixed; inset: 0; z-index: 100; display: flex; align-items: center; justify-content: center;
